@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+body{
+    background-color: black;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top:0px;
+}
+#navbar::before{
+    content:"";
+    background-color: rgb(3, 236, 244);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.7;
+}
+#navbar ul{
+    display:flex;
+    
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul a{
+    color:white;
+    display:block;
+    padding:3px 20px;
+    margin:20px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul a:hover{
+    color:rgb(3, 225, 250);
+    background-color: rgb(9, 14, 14);
+}
+#home{
+    display:flex;
+    animation-name: aman1 3s ease-in-out 0s 1 forwards;
+}
+@keyframes aman1{
+    from{
+        width:100px;
+    }
+    to{
+        width:400px;
+    }
+}
+#home img{
+    display: flex;
+    border:2px solid aqua;
+    box-shadow: 5px 5px 10px  aqua;
+    margin:50px 20px;
+    height:320px;
+}
+#home p{
+    padding:20px;
+    font-size: 27px;
+    font-weight: bold;
+    top:500px;
+    color:rgb(143, 172, 172);
+}
+#home .my{
+    border:2px solid rgb(0, 255, 251);
+    border-radius: 20px;
+    padding:15px;
+    margin:25px;
+}
+#skills{
+    margin:25px;
+    
+}
+#skills .skill{
+    margin:15px;
+    font-size: 20px;
+    color:rgb(133, 158, 158);
+}
+#skills .my{
+    border:2px solid rgb(0, 255, 251);
+    border-radius: 20px;
+    padding:15px;
+}
+#education{
+    margin:25px;
+    /* padding:15px; */
+    /* background-color: aqua; */
+    color: rgb(149, 172, 172);
+}
+#education h2{
+    margin-top: 10px;
+}
+#education h3{
+    margin-top:5px;
+}
+#education .h-prim{
+    margin-top:20px;
+}
+#education .my{
+    border:2px solid rgb(0, 255, 251);
+    border-radius: 20px;
+    padding:15px;
+}
+#contact{
+    margin:25px;
+    /* padding:15px; */
+    /* background-color: aqua; */
+}
+#contact-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* margin:40px; */
+    padding:20px;
+    border:2px solid aqua;
+    border-radius:10px;
+}
+#contact-box input,
+#contact-box textarea{
+    width:100%;
+    padding:20px;
+    border-radius: 8px;
+}
+#contact-box label{
+    font-weight: bold;
+}
+#follow{
+    margin: 25px;
+    /* padding:15px; */
+    /* background-color: aqua; */
+}
+.center{
+    background-color: black;
+    color:white;
+    padding:5px 600px;
+}
+.h-prim{
+    font-size: 30px;
+    color: aqua;
+    padding-bottom: 10px;
+}
